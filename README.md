@@ -1,4 +1,4 @@
-# Newsweek Clone
+# Patashule Clone
 
 Microverse capstone project to master the HTML and CSS
 
