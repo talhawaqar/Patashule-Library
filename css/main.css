@@ -53,6 +53,10 @@
   font-size: 22px;
 }
 
+.font-24 {
+  font-size: 24px;
+}
+
 .font-30 {
   font-size: 30px;
 }
@@ -122,14 +126,14 @@
   outline: none;
 }
 
-.search-area input[type="submit"] {
+.search-area .btn-search {
   border: solid 1px #000;
-  padding: 0.3em 1em;
+  padding: 0.5em 1em;
   margin-left: -1%;
   background: #d35649;
 }
 
-.showcase-area a {
+.showcase-area .btn-works {
   padding: 0.5em 1em;
   margin: 1.5em 0 3em;
   border-radius: 2px;
@@ -152,7 +156,45 @@ main h2 {
   padding: 1em 4em !important;
 }
 
-@media only screen and (max-width: 1024px) {
+.search-options {
+  margin-top: 4em;
+}
+
+.search-options h1 {
+  margin-top: 2em;
+}
+
+.search-options .inputs {
+  margin: 2em 0 5em 0;
+}
+
+.single-input {
+  margin-right: 0.5em;
+}
+
+.single-input label {
+  margin-bottom: 0;
+}
+
+.single-input select {
+  height: 2em;
+}
+
+.single-input .library-name {
+  height: 2em;
+}
+
+.single-input .curriculum-ddl,
+.single-input .country-ddl {
+  width: 9em;
+}
+
+.single-input .level-ddl,
+.single-input .type-ddl {
+  width: 6.5em;
+}
+
+@media only screen and (max-width: 1023px) {
   .top-navbar .brand {
     padding-bottom: 0;
   }
@@ -173,12 +215,72 @@ main h2 {
     width: 70%;
   }
 
-  .search-area input[type="submit"] {
+  .search-area .btn-search {
     border: solid 1px #000;
     background-color: #4e9ad8;
   }
 
   .card-detail {
     padding: 1em 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-navbar {
+    flex-direction: column;
+  }
+
+  .top-navbar .brand {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-navbar .links {
+    padding-top: 0.5em;
+  }
+
+  .top-navbar ul {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .top-navbar ul li {
+    display: inline-block;
+  }
+
+  .main-heading {
+    font-size: 18px;
+  }
+
+  .showcase-area h1 {
+    width: 95%;
+    padding: 10em 0em 0em 0em;
+  }
+
+  .search-area {
+    padding: 0.5em;
+    width: 90%;
+  }
+
+  .search-area .text-btn {
+    flex-direction: column;
+  }
+
+  .search-area input[type="search"] {
+    width: 98%;
+    margin: 0.2em 0 0.5em 0;
+  }
+
+  .search-area .btn-search {
+    margin-left: 0;
+    width: 98%;
+    background: #d35649;
+  }
+
+  .showcase-area .btn-works {
+    padding: 0.5em 1em;
+    margin: 1.5em 0 3em;
+    border-radius: 2px;
+    margin-right: 20%;
   }
 }
