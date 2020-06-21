@@ -17,7 +17,7 @@
         <div class="container">
           <div class="top-navbar">
             <div class="brand">
-              <a class="text-decoration-none text-white font-30" href="#">
+              <a class="text-decoration-none text-white font-30" href="/">
                 patashule
               </a>
             </div>
@@ -77,7 +77,12 @@
               <div class="inputs d-flex flex-wrap">
                 <div class="single-input text-left d-flex flex-column">
                   <label for="library-name">Library Name:*</label>
-                  <input id="library-name" type="text" class="library-name" />
+                  <input
+                    id="library-name"
+                    type="text"
+                    value="Fast"
+                    class="library-name"
+                  />
                 </div>
                 <div class="single-input text-left d-flex flex-column">
                   <label for="country-ddl">Country:</label>
@@ -87,7 +92,7 @@
                     class="country-ddl bg-white"
                   >
                     <option value=""></option>
-                    <option value="PAK">Pakistan</option>
+                    <option selected value="PAK">Pakistan</option>
                     <option value="NIG">Nigeria</option>
                     <option value="BRA">Brazil</option>
                     <option value="IND">India</option>
@@ -101,7 +106,7 @@
                     class="level-ddl bg-white"
                   >
                     <option value=""></option>
-                    <option value="LVL-1">Level 1</option>
+                    <option selected value="LVL-1">Level 1</option>
                     <option value="LVL-2">Level 2</option>
                     <option value="LVL-3">Level 3</option>
                   </select>
@@ -114,7 +119,7 @@
                     class="type-ddl bg-white"
                   >
                     <option value=""></option>
-                    <option value="TYP-A">Type A</option>
+                    <option selected value="TYP-A">Type A</option>
                     <option value="TYP-B">Type B</option>
                     <option value="TYP-C">Type C</option>
                   </select>
@@ -128,7 +133,7 @@
                     class="curriculum-ddl bg-white"
                   >
                     <option value=""></option>
-                    <option value="ENG">Engineering</option>
+                    <option selected value="ENG">Engineering</option>
                     <option value="ART">Arts</option>
                     <option value="BUS">Business</option>
                     <option value="MED">Medical</option>
@@ -157,119 +162,143 @@
       </div>
 
       <div class="container">
-        <div class="row text-center">
-          <div class="col-12 mt-5">
-            <h1 class="font-26 font-weight-bold mt-3 text-gary">
-              Search Results Found 7 Libraries.
+        <div class="row library-search-result">
+          <div class="col-12 d-flex align-items-center justify-content-center">
+            <img
+              class="library-logo"
+              src="./images/nu-logo.jpeg"
+              alt="fast Library"
+            />
+            <h1
+              class="detail-library-name font-weight-bold text-gary d-inline-block"
+            >
+              Fast NU Library
             </h1>
           </div>
         </div>
-        <div class="row mt-3">
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result w-100">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result w-100">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result w-100">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result">
-            <a href="/liberary_detail.html">
-              <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
-              />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
-              </div>
-            </a>
-          </div>
 
-          <div class="col-12 col-md-6 col-lg-4 mt-3 search-result">
-            <a href="/liberary_detail.html">
+        <div class="row library-info">
+          <div class="col-lg-4">
+            <div class="card">
               <img
-                class="position-absolute bg-logo"
-                src="./images/librarylogo.jpg"
-                alt="lib logo"
+                src="./images/books.jpg"
+                class="card-img-top info-img"
+                alt="library book"
               />
-              <div class="overlay position-absolute text-center">
-                <span
-                  class="text-white font-22 d-inline-block result-library-name"
-                  >Name: <span class="font-weight-bold">Qaid e Azam</span></span
-                >
+              <div class="card-body info-detail">
+                <h5 class="card-title text-gary font-18 font-weight-bold">
+                  More than 1 million books
+                </h5>
+                <p class="card-text text-lightgray font-15 font-weight-bold">
+                  Fast Library has more than one million books of different
+                  disciplines including engineering, business and arts.
+                </p>
               </div>
-            </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="./images/journal.jpg"
+                class="card-img-top info-img"
+                alt="library book"
+              />
+              <div class="card-body info-detail">
+                <h5 class="card-title">
+                  Journals
+                </h5>
+                <p class="card-text text-gary font-18 font-weight-bold">
+                  More than 2000 published journals are available in the library
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="./images/digital-library.jpg"
+                class="card-img-top info-img"
+                alt="library book"
+              />
+              <div class="card-body info-detail">
+                <h5 class="card-title text-gary font-18 font-weight-bold">
+                  Digital Library
+                </h5>
+                <p class="card-text text-lightgray font-15 font-weight-bold">
+                  Fast Library is equipped with modern computer lab ehere you
+                  can access HEC library databasse and read thousands of latest
+                  articles and ebooks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="membership-form">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <h2 class="font-22 font-weight-bold">Register</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <form class="register-form" action="#">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first-name"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="user-name">User Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="user-name"
+                    placeholder="eg talha"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="confirm-password">Confirm Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirm-password"
+                    placeholder="Confirm password"
+                  />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

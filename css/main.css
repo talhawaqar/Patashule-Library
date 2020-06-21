@@ -13,6 +13,10 @@
   background: #d35649;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .text-primary-color {
   color: #d35649;
 }
@@ -37,6 +41,10 @@
   background-color: #bcbcbc;
 }
 
+.font-14 {
+  font-size: 14px;
+}
+
 .font-15 {
   font-size: 15px;
 }
@@ -55,6 +63,10 @@
 
 .font-24 {
   font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
 }
 
 .font-30 {
@@ -98,7 +110,8 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .showcase-area {
-  background-color: royalblue;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    transparent url(../images/main-library.jpg) center center/cover no-repeat;
 }
 
 .showcase-area h1 {
@@ -182,6 +195,19 @@ main h2 {
 
 .single-input .library-name {
   height: 2em;
+  border: solid 2px #888;
+}
+
+.single-input .library-name:focus {
+  outline: none;
+}
+
+.single-input select {
+  border: solid 2px #888;
+}
+
+.single-input select:focus {
+  outline: none;
 }
 
 .single-input .curriculum-ddl,
@@ -192,6 +218,92 @@ main h2 {
 .single-input .level-ddl,
 .single-input .type-ddl {
   width: 6.5em;
+}
+
+.form-buttons a {
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+}
+
+.form-buttons .btn-search {
+  background-color: #447db4;
+}
+
+.form-buttons .btn-search:hover {
+  background-color: #2e3fb7;
+}
+
+.form-buttons .btn-clear {
+  background-color: #e5ac5b;
+  margin-left: 0.5em;
+}
+
+.form-buttons .btn-clear:hover {
+  background-color: #e0521f;
+}
+
+.search-result {
+  height: 25em;
+}
+
+.bg-logo {
+  width: 96%;
+  margin: auto;
+}
+
+.overlay {
+  background-color: #d85e4b;
+  width: 96%;
+  height: 100%;
+  margin: auto;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.result-library-name {
+  margin-top: 30%;
+}
+
+.library-search-result {
+  margin-top: 3em;
+}
+
+.library-search-result .library-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.library-search-result .detail-library-name {
+  margin-left: 1em;
+}
+
+.library-info {
+  margin-top: 3em;
+}
+
+.info-img {
+  height: 15em;
+}
+
+.info-detail {
+  height: 10em;
+}
+
+.register-form {
+  width: 60%;
+  margin: auto;
+}
+
+.form-group label {
+  margin-bottom: 0;
+}
+
+.form-group input {
+  border-bottom: 2px dotted;
+}
+
+.form-group input:focus {
+  outline: none;
 }
 
 @media only screen and (max-width: 1023px) {
