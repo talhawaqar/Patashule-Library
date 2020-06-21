@@ -282,7 +282,7 @@ main h2 {
 }
 
 .info-img {
-  height: 15em;
+  height: 20vw;
 }
 
 .info-detail {
@@ -334,6 +334,10 @@ main h2 {
 
   .card-detail {
     padding: 1em 0 !important;
+  }
+
+  .info-detail {
+    height: 15em;
   }
 }
 
@@ -394,5 +398,22 @@ main h2 {
     margin: 1.5em 0 3em;
     border-radius: 2px;
     margin-right: 20%;
+  }
+
+  .single-info {
+    margin-top: 2em;
+  }
+
+  .info-img {
+    height: 50vw;
+  }
+
+  .info-detail {
+    height: auto;
+  }
+
+  .register-form {
+    width: 90%;
+    margin: auto;
   }
 }
