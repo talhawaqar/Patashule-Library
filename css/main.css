@@ -106,6 +106,98 @@
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+              Footer
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.footer {
+  background-color: black;
+  padding: 2em 0;
+}
+
+.foter-links {
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+.foter-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.foter-links ul li {
+  display: inline-block;
+}
+
+.foter-links .left-links {
+  flex: 1;
+}
+
+.foter-links .right-links {
+  flex: 1;
+}
+
+.link {
+  padding: 1em;
+  font-size: 18px;
+}
+
+.link:hover {
+  background-color: #444444;
+}
+
+.center-logo {
+  top: 0;
+  left: 46%;
+  border: solid 1px white;
+  padding: 1.8em 2em 1.7em 2em;
+  background-color: #000;
+}
+
+.center-logo:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+
+.center-logo i {
+  font-size: 4em;
+}
+
+.footer .sub-contact-about {
+  margin-top: 2.5em;
+}
+
+.footer .sub-input-btn .btn-footer-sub {
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+  background-color: #444444;
+}
+
+.footer .sub-input-btn input {
+  background-color: transparent;
+}
+
+.footer .sub-input-btn input:focus {
+  outline: none;
+}
+
+.footer .sub-input-btn .footer ::placeholder {
+  color: #444444;
+  opacity: 1;
+}
+
+.footer span {
+  line-height: 20px;
+}
+
+.footer .learn-more {
+  text-decoration: underline;
+}
+
+.footer .learn-more:hover {
+  color: #d35649;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
               SHOWCASE AREA
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
@@ -167,6 +259,10 @@ main h2 {
 
 .card-detail {
   padding: 1em 4em !important;
+}
+
+.steps {
+  margin-bottom: 3em;
 }
 
 .search-options {
@@ -292,6 +388,7 @@ main h2 {
 .register-form {
   width: 60%;
   margin: auto;
+  margin-bottom: 3em;
 }
 
 .form-group label {
@@ -300,10 +397,27 @@ main h2 {
 
 .form-group input {
   border-bottom: 2px dotted;
+  background-color: #dee2e2;
 }
 
 .form-group input:focus {
   outline: none;
+}
+
+.btn-signup {
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+}
+
+.btn-signup:hover {
+  background-color: #2e3fb7;
+}
+
+.btn-signin:hover {
+  padding: 0.2em 0.5em;
+  background: #d35649;
+  border-radius: 2px;
+  color: white;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -321,6 +435,10 @@ main h2 {
 
   .navbar-link {
     margin-right: 3em;
+  }
+
+  .link {
+    padding: 0.2em;
   }
 
   .search-area input[type="search"] {
@@ -362,6 +480,15 @@ main h2 {
 
   .top-navbar ul li {
     display: inline-block;
+  }
+
+  .foter-links {
+    flex-direction: column;
+  }
+
+  .foter-links .link {
+    padding: 0.2em;
+    font-size: 16px;
   }
 
   .main-heading {
