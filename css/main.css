@@ -72,6 +72,7 @@
 .font-30 {
   font-size: 30px;
 }
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
               NAVBAR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -142,7 +143,7 @@
 }
 
 .link:hover {
-  background-color: #444444;
+  background-color: #444;
 }
 
 .center-logo {
@@ -154,7 +155,7 @@
 }
 
 .center-logo:hover {
-  background-color: #444444;
+  background-color: #444;
   cursor: pointer;
 }
 
@@ -169,7 +170,7 @@
 .footer .sub-input-btn .btn-footer-sub {
   padding: 0.2em 0.5em;
   border-radius: 2px;
-  background-color: #444444;
+  background-color: #444;
 }
 
 .footer .sub-input-btn input {
@@ -181,7 +182,7 @@
 }
 
 .footer .sub-input-btn .footer ::placeholder {
-  color: #444444;
+  color: #444;
   opacity: 1;
 }
 
@@ -206,13 +207,14 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .showcase-area {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     transparent url(../images/main-library.jpg) center center/cover no-repeat;
 }
 
 .showcase-area h1 {
   width: 65%;
-  padding: 2em 0em 0.5em 0em;
+  padding: 2em 0 0.5em 0;
 }
 
 .search-area {
@@ -572,7 +574,7 @@ main h2 {
 
   .showcase-area h1 {
     width: 95%;
-    padding: 10em 0em 0em 0em;
+    padding: 10em 0 0 0;
   }
 
   .search-area {
@@ -627,6 +629,7 @@ main h2 {
   .about .btn-find {
     margin-left: 30%;
   }
+
   .about .right-image {
     display: flex;
     justify-content: center;
