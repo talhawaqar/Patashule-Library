@@ -441,6 +441,10 @@ main h2 {
     padding: 0.2em;
   }
 
+  .footer-info-block {
+    margin-top: 2em;
+  }
+
   .search-area input[type="search"] {
     width: 70%;
   }
