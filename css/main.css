@@ -110,29 +110,29 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .footer {
-  background-color: black;
   padding: 2em 0;
+  background-color: black;
 }
 
-.foter-links {
+.footer-links {
   border-top: solid white 1px;
   border-bottom: solid white 1px;
 }
 
-.foter-links ul {
+.footer-links ul {
   margin: 0;
   padding: 0;
 }
 
-.foter-links ul li {
+.footer-links ul li {
   display: inline-block;
 }
 
-.foter-links .left-links {
+.footer-links .left-links {
   flex: 1;
 }
 
-.foter-links .right-links {
+.footer-links .right-links {
   flex: 1;
 }
 
@@ -197,8 +197,12 @@
   color: #d35649;
 }
 
+.copyright-footer {
+  background-color: #1f1f1f;
+}
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-              SHOWCASE AREA
+              Home Page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .showcase-area {
@@ -244,10 +248,6 @@
   border-radius: 2px;
 }
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-              MAIN SECTION
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
 main h2 {
   margin-top: 2em;
 }
@@ -264,6 +264,10 @@ main h2 {
 .steps {
   margin-bottom: 3em;
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            Search Resut Page
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .search-options {
   margin-top: 4em;
@@ -356,6 +360,10 @@ main h2 {
   opacity: 0.8;
 }
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+          Detail Page
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 .result-library-name {
   margin-top: 30%;
 }
@@ -383,6 +391,24 @@ main h2 {
 
 .info-detail {
   height: 10em;
+}
+
+.library-contact {
+  margin-top: 4em;
+}
+
+.library-contact h2 {
+  margin: 1em;
+}
+
+.library-contact .apply-btn {
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  background-color: #2e3fb7;
+}
+
+.library-contact .apply-btn:hover {
+  background-color: lightgreen;
 }
 
 .register-form {
@@ -486,11 +512,11 @@ main h2 {
     display: inline-block;
   }
 
-  .foter-links {
+  .footer-links {
     flex-direction: column;
   }
 
-  .foter-links .link {
+  .footer-links .link {
     padding: 0.2em;
     font-size: 16px;
   }
