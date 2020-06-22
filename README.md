@@ -15,7 +15,7 @@ This website uses Patashuale theme
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/talhawaqar/Patashule-Library/feature-layout/index.html)
+[Live Demo Link](https://talhawaqar.github.io/Patashule-Library/)
 
 👤 **Author**
 
