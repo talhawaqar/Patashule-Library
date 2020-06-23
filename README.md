@@ -10,15 +10,15 @@ Project Design Screenshot : ![Project Design](images/Home.png)
 
 ### Search Page
 
-Project Design Screenshot : ![Project Design](Search-page.png))
+Project Design Screenshot : ![Project Design](images/Search-page.png))
 
 ### Detail Page
 
-Project Design Screenshot : ![Project Design](Detail-page.png))
+Project Design Screenshot : ![Project Design](images/Detail-page.png))
 
 ### About Page
 
-Project Design Screenshot : ![Project Design](Aboutus-Page.png))
+Project Design Screenshot : ![Project Design](images/Aboutus-Page.png))
 
 This website uses Patashuale theme
 
