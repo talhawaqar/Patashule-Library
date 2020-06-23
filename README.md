@@ -1,8 +1,24 @@
 # Patashule Clone
 
-Microverse capstone project to master the HTML and CSS
+This project is the HTML &amp; CSS Capstone Project which is based on an online directories of libraries. It resembles the real-life project.
 
-![screenshot](./images/screenshot.jpg)
+## Project Design
+
+### Home Page
+
+Project Design Screenshot : ![Project Design](images/Home.png)
+
+### Search Page
+
+Project Design Screenshot : ![Project Design](Search-page.png))
+
+### Detail Page
+
+Project Design Screenshot : ![Project Design](Detail-page.png))
+
+### About Page
+
+Project Design Screenshot : ![Project Design](Aboutus-Page.png))
 
 This website uses Patashuale theme
 
@@ -10,7 +26,7 @@ This website uses Patashuale theme
 
 - Html,
 - CSS,
-- Bootstrap
+- Bootstrap,
 - Font Awsome for icons
 
 ## Live Demo
@@ -45,6 +61,7 @@ Give a ⭐️ if you like this project!
 
 - Project originally taken from The Odin Project
 - Project inspired by Microverse Program
+- Thanks for this Website Design [PATASHULE](https://www.behance.net/gallery/25563385/PatashuleKE).
 
 ## 📝 License
 
